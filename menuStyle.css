@@ -1,0 +1,27 @@
+.menu {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+/*    border-bottom: 3px dashed #85abbe;*/
+    border-radius: 3px;
+/*    border-bottom-color: linear-gradient(to right, #b3e4fc, #b3f6fc);*/
+    height: 48px;
+/*    background-color: #b3e4fc; */
+    background: linear-gradient(to right, #b3ddfc, #b3e0fc);
+    text-align: center;
+    text-decoration-color: black
+}
+
+.menu a {
+    font-family: Arial, serif;
+    font-weight: bold;
+    color: #575757;
+}
+
+.menu td:hover {
+    border-radius: 2px;
+    background-color: rgba(46, 176, 224, 0.49);
+/*    background-color: rgba(46, 176, 224, 0.49);*/
+/*    background-color: rgba(0, 0, 0, 0.1);*/
+}
