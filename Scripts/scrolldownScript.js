@@ -1,6 +1,6 @@
 let flag = false;
 
-document.onkeydown = fuction(event)
+document.onkeydown = function(event)
 {
     if(event.code == 'AltLeft') flag = true;
     if (event.code == 'KeyN' && flag)
