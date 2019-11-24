@@ -1,8 +1,16 @@
 .form {
     width: 375px;
-    background-color: #c4c4c4;
+/*    background-color: #c4c4c4;*/
+    
 }
 
-/*.form input {
+.form input {
     float: right;
-}*/
+}
+
+.form button {
+    width: 100px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+}
