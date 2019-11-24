@@ -1,0 +1,11 @@
+#ulHobbies ul li{
+    width: 450px;
+    padding-left: 10px; 
+    line-height: 30px;
+}
+#ulHobbies ul li:nth-child(odd) {
+    background-color: #becbff;
+}
+#ulHobbies ul li:nth-child(even) {
+    background-color: #dfe5ff;
+}

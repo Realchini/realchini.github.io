@@ -1,0 +1,40 @@
+* { text-decoration: none;
+    font-family: sans-serif;
+/*    margin: 0;*/
+}
+.info a:hover {
+    text-decoration: underline
+}
+h1 {
+    font-family: sans-serif;
+    color: #10266d;
+}
+p {
+    font-family: serif;
+    text-indent: 1.1em;
+    line-height: 50%;
+    font-family: Arial, fantasy;
+}
+
+/*  Таблицы  */
+.table tr:nth-child(odd) {
+    background-color: #becbff;
+}
+.table tr:nth-child(even) {
+    background-color: #dfe5ff;
+}
+.table td {
+    padding-left: 10px;
+    line-height: 30px;
+}
+.table {
+    width: 500px;
+}
+
+#keks
+{
+    width: 100px;
+    height: 100px;
+    background: grey;
+}
+

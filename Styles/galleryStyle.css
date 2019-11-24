@@ -1,0 +1,11 @@
+.gallery{
+margin-left: 15px;
+}
+.gallery a img{
+    width: 330px;
+    height: 200px;
+}
+
+#centered {
+    text-align: center;
+}

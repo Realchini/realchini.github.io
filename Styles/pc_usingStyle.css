@@ -1,0 +1,11 @@
+#ulUsing ul li{
+    width: 200px;
+    padding-left: 10px; 
+    line-height: 30px;
+}
+#ulUsing ul li:nth-child(odd) {
+    background-color: #becbff;
+}
+#ulUsing ul li:nth-child(even) {
+    background-color: #dfe5ff;
+}
