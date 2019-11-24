@@ -9,6 +9,9 @@
     padding-left: 10px;
     line-height: 30px;
 }
+.table tr:hover {
+    background-color: whitesmoke;
+}
 .table {
     width: 500px;
 }
