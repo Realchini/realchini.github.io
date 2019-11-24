@@ -1,0 +1,14 @@
+/*  Таблицы  */
+.table tr:nth-child(odd) {
+    background-color: #becbff;
+}
+.table tr:nth-child(even) {
+    background-color: #dfe5ff;
+}
+.table td {
+    padding-left: 10px;
+    line-height: 30px;
+}
+.table {
+    width: 500px;
+}
