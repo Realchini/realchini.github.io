@@ -14,3 +14,22 @@
     float: right;
     border-radius: 5px;
 }
+
+.myform {
+    width: 375px;
+    /*background-color: #c4c4c4;*/
+
+}
+
+.myform input {
+    float: right;
+}
+
+#prefix
+{
+/*    background-color: aquamarine;*/
+    float: right;
+    text-align: right;
+    margin-top: 0.2em;
+    margin-right: 0.2em;
+}
