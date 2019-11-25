@@ -1,11 +1,38 @@
 .gallery{
-margin-left: 15px;
+margin-left: 12px;
 }
-.gallery a img{
+.gallery img{
     width: 330px;
     height: 200px;
+    cursor:pointer;
 }
 
 #centered {
     text-align: center;
+}
+
+/*popup*/
+.popup {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+ 
+.popup_bg {
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    height: 200%;
+    width: 100%;
+}
+
+.popup_img {
+    position: relative;
+    margin: 0 auto;
+    width: 990px;
+    height: 600px;
+    margin: 1% 0 0 0;
 }
