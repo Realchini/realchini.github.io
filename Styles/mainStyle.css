@@ -32,6 +32,32 @@ p {
     vertical-align: center;
 }
 
+#blogbutton {
+    width:100px;
+    height: 47px;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+    
+    background-color: #535353;
+    font-family: Arial, serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 3px;
+    display: inline;
+}
+
+#blogbutton a{
+    font-family: Arial, serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#ad_and_blog {
+    display: inline;
+}
 .content {
     width: 1020px;
     margin-left: auto;
