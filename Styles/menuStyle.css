@@ -25,3 +25,60 @@
 /*    background-color: rgba(46, 176, 224, 0.49);*/
 /*    background-color: rgba(0, 0, 0, 0.1);*/
 }
+
+/*************************************/
+/*
+.nav {
+    width: 1080px;
+    height: 48px;
+    margin: auto;
+    
+    background-color: aqua;
+/*    text-align: center;
+    word-wrap: normal;
+}
+
+.nav ul{
+    width: 1080px;
+    height: 48px;
+    
+    background-color: green;
+    border-radius: 3px;
+    word-wrap: normal;
+}
+
+.nav li{
+    display: inline;
+    line-height:  48px;
+    background-color: pink;
+    word-wrap: normal;
+    
+/*    display: inline;
+}
+
+.nav ul li a {
+}
+*/
+
+/*
+.nav2 {
+    width: 1080px;
+    height: 48px;
+    margin: auto;
+    
+    background-color: aqua;
+}
+
+.nav-item {
+    height: 48px;
+    display: inline;
+    word-wrap: normal;
+    text-align: center;
+    
+    overflow-x: scroll;
+}
+
+.nav-item:hover {
+    background-color: blue
+}
+*/
