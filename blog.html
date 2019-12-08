@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="Styles/future_plansStyle.css">
     <link rel="stylesheet" type="text/css" href="Styles/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="Styles/menuStyle.css">
     <link rel="stylesheet" type="text/css" href="Styles/blogStyle.css">
+    <script src="Scripts/canvasScript.js"></script>
     <script src="Scripts/formvalidScript.js"></script>
 </head>
 
@@ -34,7 +35,7 @@
 
     <div class="content">
         <h1>Блог</h1>
-<!--
+        <!--
         <div class="form">
             <p>Тема сообщения: <input type="text" size="29"></p>
             <p><textarea name="comment" cols="50" rows="5"></textarea></p>
@@ -47,27 +48,50 @@
         </div>
 -->
         <div class="myform">
-        <form action="" method="post" name="testform" onsubmit="valid(this)">
-            <label for="topic">Тема сообщения:</label>
-            <input type="text" name="topic" placeholder="Тема сообщения" id="topic">
-            <br><br>
-            <label for="message">Сообщение:</label><br>
-<!--            <input type="text" name="message" placeholder="Введите сообщение" id="message">-->
-            <textarea name="message" id="message" cols="50" rows="5"></textarea>
-            <br><br>
-            <label for="email">Емейл:</label>
-            <input type="text" name="email" placeholder="example@gmail.com" id="email">
-            <br><br>
-            <label for="phone">Номер телефона:</label>
-            <input type="text" name="phone" placeholder="095-505-55-55" id="phone">
-            <label id="prefix">+38</label>
-            <br><br>
-            <input type="submit" name="submit" value="Отправить">
-        </form>
+            <form action="" method="post" name="testform" onsubmit="valid(this)">
+                <label for="topic">Тема сообщения:</label>
+                <input type="text" name="topic" placeholder="Тема сообщения" id="topic" required>
+                <br><br>
+                <label for="message">Сообщение:</label><br>
+                <!--            <input type="text" name="message" placeholder="Введите сообщение" id="message">-->
+                <textarea name="message" id="message" cols="50" rows="5"></textarea>
+                <br><br>
+                <label for="email">Емейл:</label>
+                <input type="email" name="email" placeholder="example@gmail.com" id="email" required>
+                <br><br>
+                <label for="phone">Номер телефона:</label>
+                <input type="text" name="phone" placeholder="095-505-55-55" id="phone">
+                <label id="prefix">+38</label>
+                <br><br>
+                <input type="submit" name="submit" value="Отправить">
+            </form>
             <br>
             <br>
         </div>
-        
+
+        <br>
+        Сanvas:
+        <br>
+        <canvas id="canvas" width="370" height="200" style="border: 3px solid gray"></canvas>
+        <script>
+            var c = document.getElementById("canvas");
+            var ctx = c.getContext("2d");
+            var ctx2 = c.getContext("2d");
+            
+            var grd = ctx.createLinearGradient(0, 0, 370, 200);
+            grd.addColorStop(0, "aqua");
+            grd.addColorStop(1, "pink");
+            ctx.fillStyle = grd;
+            ctx.fillRect(10, 10, 350, 180);
+            
+            ctx2.font = "30px Arial";
+            ctx2.fillText("Это <canvas>", 0, 0);
+        </script>
+        <form>
+   <p><input type="search" name="q" placeholder="Поиск по сайту"> 
+   <input type="submit" formaction="http://google.com/search?q" value="Искать"></p>
+  </form>
+
         <br>
         <hr>
         <b>Другие страницы:</b>
@@ -81,4 +105,6 @@
         </ul>
 
     </div>
-</body></html>
+</body>
+
+</html>

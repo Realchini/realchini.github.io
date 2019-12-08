@@ -58,11 +58,27 @@ p {
 #ad_and_blog {
     display: inline;
 }
+
+.searchline {
+    width: 1080px;
+    margin: 10px auto 0px auto;
+    display: block;
+    
+/*    background-color: pink;*/
+}
+.searchline input {
+    height: 30px;
+    border-radius: 5px;
+}
+.search {
+    margin-left: 840px; 
+}
+
 .content {
     width: 1020px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     
     padding-left: 30px;
     padding-right: 30px;
@@ -70,4 +86,13 @@ p {
     padding-bottom: 10px;
     
     background-color: #e8e8e8;
+}
+
+.music {
+    width: 600px;
+    margin-top: 15px;
+    margin: 15px auto;
+}
+audio {
+    width: 100%;
 }
