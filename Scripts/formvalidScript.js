@@ -1,3 +1,6 @@
+let email_inp = document.querySelector("#emailinput");
+if(email_inp.type=="text")
+{
 function valid(form)
 {
     var topic = form.topic.value;
@@ -32,3 +35,34 @@ function valid(form)
             return true;
         }
 }
+}
+
+/**************/
+/*
+let email_inp = document.querySelector("#emailinput");
+if(email_inp.type=="text")
+    {
+        function valid(form)
+        {
+        var email = form.email.value;
+        var email_pattern = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/;
+
+        var fail = false;
+        if(!email || email == " ")
+            fail = "Введите email";
+        else if(email_pattern.test(email) == false)
+            fail = "Вы ввели email неверного формата";
+    
+        if(fail)
+            {
+                alert(fail);
+                return false;
+            }
+        else
+            {
+                alert("Отлично! Подарок выслан");
+                window.location = "Main.html"
+                return true;
+            }
+        }
+    }
